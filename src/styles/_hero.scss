@@ -1,3 +1,5 @@
+@use 'variables' as *;
+
 .hero {
   position: relative;
   width: 100%;
@@ -81,7 +83,8 @@
   text-transform: uppercase;
 }
 
-.story-content p, .story-content em {
+.story-content p,
+.story-content em {
   font-size: 3.25cqw;
   line-height: 1.12;
   color: var(--color-dark-blue);
